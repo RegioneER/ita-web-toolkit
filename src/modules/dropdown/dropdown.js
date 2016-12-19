@@ -169,6 +169,12 @@ class Menu {
     this.$element.data(this.componentName, this)
 
     this.$element.attr('role', 'menu')
+    // @FIXME
+    // ita-web-toolkit mod:
+    // be careful with the following as menuitem(s)
+    // get a special treatment by screen readers
+      .find('li').attr('role', 'menuitem')
+
     this.close()
     var self = this
 
@@ -204,6 +210,12 @@ class Menutrigger {
     if (this.$element.is('a')) {
       this.$element
         .attr('role', 'button')
+        .bind('click', function(e) {
+          e.preventDefault()
+          self.menu.toggle(this, true)
+        })
+    } else if (this.$element.is('button')) {
+      this.$element
         .bind('click', function(e) {
           e.preventDefault()
           self.menu.toggle(this, true)

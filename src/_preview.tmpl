@@ -36,14 +36,14 @@
   <link media="screen" rel="stylesheet" href="{{ '/build/vendor.css' | path }}">
   <link media="screen" rel="stylesheet" href="{{ '/build/build.css' | path }}">
 
+  <script src="{{ '/build/vendor/jquery.min.js' | path }}"></script>
+
   <title>Preview Layout</title>
 </head>
 
-<body class="Pac">
+<body class="t-Pac">
 
   {{ yield|safe }}
-
-  <script src="{{ '/build/vendor/jquery.min.js' | path }}"></script>
 
   <!--[if IE 8]>
   <script src="{{ '/build/vendor/respond.min.js' | path }}"></script>
@@ -56,8 +56,7 @@
   <script src="{{ '/build/vendor/polyfill.min.js' | path }}"></script>
   <![endif]-->
 
-  <!-- In produzione utilizzare <script src="/build/IWT.min.js"></script> -->
-  <script src="{{ '/build/IWT.js' | path }}"></script>
+  <script src="{{ '/build/IWT.min.js' | path }}"></script>
 
 </body>
 </html>

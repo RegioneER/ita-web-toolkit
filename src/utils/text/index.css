@@ -33,6 +33,7 @@
  * 	1. antialiasing firefox per mac
  * 	2. antialiasing chrome, safari per mac
  */
+
 .u-textSmooth {
   -moz-osx-font-smoothing: grayscale !important; /* 1 */
   -webkit-font-smoothing: antialiased !important; /* 2 */
@@ -40,6 +41,10 @@
 
 .u-textClean {
   text-decoration: none !important;
+}
+
+.u-textClean:hover {
+  text-decoration: underline !important;
 }
 
 .u-textWeight-200 {
@@ -74,22 +79,31 @@
   font-style: italic !important;
 }
 
-.u-textPreformatted {
-  font-family: var(--Text-preFormatted-font) !important;
-  max-height: 32em;
-  overflow-x: auto !important;
+.u-textLowercase {
+  text-transform: lowercase !important;
 }
 
-.u-textPreformatted:hover,
-.u-textPreformatted:focus {
-  max-width: min-content;
-  width: min-content;
+.u-textUppercase {
+  text-transform: uppercase !important;
+}
+
+.u-textSmallCaps {
+  font-variant: small-caps !important;
+}
+
+.u-textPreformatted {
+  font-family: var(--Text-preFormatted-font) !important;
+}
+
+.u-textOverflow {
+  overflow-x: auto !important;
 }
 
 /*
  *	Responsive font sizing
  * 	====================================
  */
+
 .u-text-r-xxl {
   @extend .u-text-xxl;
   @extend .u-text-sm-xxl;

@@ -1,37 +1,20 @@
-<table class="Table Table--withBorder Table--responsive u-text-r-xs">
+<table class="Table Table--withBorder js-TableResponsive tablesaw tablesaw-stack" data-tablesaw-mode="stack">
   <caption class="u-hiddenVisually">{{ caption | d(__WORDS__[0]) }}</caption>
   <thead>
-    <tr class="u-color-grey-90 u-background-grey-10">
-      <th>Tab. 1 Irure exercitation enim do </th>
-      <th>Tab. 2 Eu velit est do culpa officia sit .</th>
-      <th>Tab. 3 Esse nulla proident commodo adipisicing nis.</th>
-      <th>Tab. 4</th>
+    <tr>
+      <th scope="col">Tab. 1</th>
+      <th scope="col">Tab. 2</th>
+      <th scope="col">Tab. 3</th>
+      <th scope="col">Tab. 4</th>
     </tr>
   </thead>
   <tbody>
+    {% for i in [1, 2, 3, 4] %}
     <tr>
-      <td>Tab. 1</td>
-      <td>Tab. 2</td>
-      <td>Tab. 3</td>
-      <td>Tab. 4</td>
+      {% for j in [1, 2, 3, 4] %}
+        <td>{{ __SHORT_TEXTS__[j+i] }}</td>
+      {% endfor %}
     </tr>
-    <tr>
-      <td>Tab. 1</td>
-      <td>Tab. 2</td>
-      <td>Tab. 3</td>
-      <td>Tab. 4</td>
-    </tr>
-    <tr>
-      <td>Tab. 1</td>
-      <td>Tab. 2</td>
-      <td>Tab. 3</td>
-      <td>Tab. 4</td>
-    </tr>
-    <tr>
-      <td>Tab. 1</td>
-      <td>Tab. 2</td>
-      <td>Tab. 3</td>
-      <td>Tab. 4</td>
-    </tr>
+    {% endfor %}
   </tbody>
 </table>

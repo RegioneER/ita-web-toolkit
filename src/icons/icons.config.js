@@ -1,8 +1,10 @@
-const icons = require('./ita/font/selection.json').icons
-const iconNames = []
+const _ = require('lodash')
 
-icons.forEach((v) => {
-  iconNames.push(v.properties.name)
-})
+const icons = require('./font/selection.json').icons
 
-module.exports = { context: { icons: iconNames }}
+module.exports = {
+  order: 60,
+  context: {
+    icons: _.map(icons, (v) => v.properties.name)
+  }
+}

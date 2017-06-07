@@ -11,23 +11,26 @@ che hanno una propria licenza diversa da CC0.
 - [src/vendor/rem.min.js](https://github.com/chuckcarpenter/REM-unit-polyfill) (c)) Chuck Carpenter, licenza MIT
 - [src/vendor/respond.min.js](https://github.com/scottjehl/Respond) (c) Scott Jehl, licenza MIT
 - [src/vendor/selectivzr.js](http://selectivizr.com/) (c) Keith Clark, licenza MIT
-- [src/vendor/yepnope.js](http://yepnopejs.com/) (c) Alex Sexton, Ralph Holzmann, licenza MIT
 
 - [src/modules/megamenu/megamenu.js](https://adobe-accessibility.github.io/Accessible-Mega-Menu/) (c) Adobe Systems Incorporated, licenza Apache 2.0
 - [src/src/modules/carousel/a11y.js](https://github.com/rtrvrtg/owlcarousel2-a11ylayer) (c) 2015 Geoffrey Roberts, licenza MIT
 - [src/modules/cookiebar/cookiebar.js](https://github.com/carlwoodhouse/jquery.cookieBar) (c) 2016 Carl Woodhouse, licenza MIT
 - [src/components/form/index.css](https://github.com/giuseppeg/suitcss-components-form) (c) Giuseppe Gurgone, licenza MIT
 - [src/components/table/index.css](https://github.com/trunkclub/suitcss-components-table) (c) Trunk Club, licenza MIT
+- [src/print/index.css](https://github.com/h5bp/html5-boilerplate) (c) HTML5 Boilerplate, licenza MIT
 
 Tramite gli [archivi npm](https://www.npmjs.com/):
 
-- libreria javascript [frend](https://frend.co/) (c) 2015 Adam Duncan, Tom Digby, licenza MIT
-- libreria CSS [suitcss](http://suitcss.github.io/) (c) Nicolas Gallagher, licenza MIT
+- [frend](https://frend.co/) (c) 2015 Adam Duncan, Tom Digby, licenza MIT
+- [suitcss](http://suitcss.github.io/) (c) Nicolas Gallagher, licenza MIT
 - [headroom.js](http://wicky.nillia.ms/headroom.js/) (c) 2013 Nick Williams, licenza MIT
 - [jquery.cookie](https://www.npmjs.com/package/jquery.cookie) (c) Klaus Hartl, licenza MIT
 - [owl carousel](http://www.owlcarousel.owlgraphic.com/) (c) Owl (David Deutsch), licenza MIT
 - [throttle-debounce](https://github.com/niksy/throttle-debounce) (c) Ivan Nikolić, Ben Alman, licenza MIT
 - [salvattore](http://salvattore.com/) (c) 2013-2014 Rolando Murillo and Giorgio Leveroni, licenza MIT
+- [piakaday](https://github.com/dbushell/Pikaday) (c) 2014 David Bushell BSD, licenza MIT
+- [tablesaw](https://github.com/filamentgroup/tablesaw) (c) 2013 Filament Group, licenza MIT
+- [popper.js](https://popper.js.org/) (c) 2016 Federico Zivolo and contributors, licenza MIT
 
 ### Dipendenze per la fase di compilazione
 

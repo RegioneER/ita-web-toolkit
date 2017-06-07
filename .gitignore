@@ -7,3 +7,7 @@ config.local.js
 npm-debug.log
 styleguide
 gh-pages
+.idea
+.vscode
+build/*
+TODO.txt
